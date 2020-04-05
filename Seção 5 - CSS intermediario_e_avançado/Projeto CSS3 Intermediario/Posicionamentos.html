@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Posicionamentos (static, telative, absolute e fixed</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		body{
+			background: #007fc7;
+		}
+		#conteiner{
+			background: #fff;
+			width: 800px;
+			margin: 10px auto;
+			padding: 10px;
+			
+		}
+		h2{
+			
+		}
+		p{
+			width: 250px;
+		}
+		.relative{
+			border: 1px solid red;
+			position: relative;
+			left: -10px; top: 20px;
+			/*alinamento é baseado na sua posição original padrão e não afeta a posição dos demais itens*/
+		}
+		.absolute{
+			border: 1px solid red;
+			position: absolute;
+			left: 300px;
+			top: 20px;
+			/*alinamento é baseado na sua posição dentro do seu bloco-pai/conteiner e torna o item como flutuante se descando dos demais itens*/
+		}
+		.fixo{
+			border: 1px solid red;
+			background: #F5DEB3;
+			position: fixed;
+			right: 0px;
+			top: 0px;
+			/*alinamento baseado na tela do navegador e não é alterado na rolagem da página e fica fixo na tela*/
+	</style>
+	
+	<!--<link rel="stylesheet" type="text/css" href="estilo.css">-->
+
+</head>
+<body>
+	<div id="conteiner">
+		<h2>Pocionamentos</h2>
+		<P>
+			1 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+		</P>
+		<p class="fixo">
+			2 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+		</P>
+		<P>
+			3 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+		</P>
+	</div>
+	
+</body>
+</html>

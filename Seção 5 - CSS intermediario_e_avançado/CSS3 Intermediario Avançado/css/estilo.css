@@ -1,0 +1,394 @@
+/*Seletor Universal
+	border: 1px solid red;
+}
+*{
+
+}
+Seletor texto
+h1{
+	color: green;
+}
+.verde{
+
+}
+p.verde{
+
+}
+seletor de filho
+li>a{
+	color: red;
+	text-decoration: none;
+}
+body{
+	color: red;
+	border: 1px solid blue;
+}
+p{
+	color: red !important;
+}
+p{
+	color: blue;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+li{
+	padding: 5px 20px;
+	background: url(../css/navegacao-vertical/seta.png) no-repeat left center;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+ul a{
+	width: 200px;
+	height: 40px;
+	display: block;
+	font-weight: 600;
+	color: #000;
+	text-decoration: none;
+	text-indent: 40px;
+	line-height: 40px;
+	background: #f7b600 url(../css/navegacao-vertical/menu.png) no-repeat left bottom;
+}
+a:hover{
+	background-position: right bottom;
+	background-color: #f99200;
+	color: #fff;
+}
+
+#home .home a, #sobre .sobre a, 
+#servicos .servicos a, #sobre .sobre a, 
+#noticias .noticias a, #contato .contato a{
+	background-position: right bottom;
+	background-color: #f99200;
+	color: #fff;
+}*/
+
+
+/* inicio da aula navegação horizontal */
+/*
+ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	width: 554px;
+	background: #159cb0 url(../css/navegacao-horizontal/fundo-horizontal.png) repeat-x;
+	float: left;
+}
+ul li{
+	float: left;
+}
+ul a{
+	display: block;
+	padding: 0 2em;
+	line-height: 2em;
+	text-decoration: none;
+	color: #fff;
+	background: url(../css/navegacao-horizontal/divisor.png) repeat-y;
+}
+ul .primeiro {
+	background: none;
+}
+
+ul a:hover{
+	color: #085662;
+	background: #44cade;
+}
+
+#home .home a, #sobre .sobre a, 
+#servicos .servicos a, #sobre .sobre a, 
+#noticias .noticias a, #contato .contato a{
+	background-position: right bottom;
+	color: #085662;
+	background: #44cade;
+}
+*/
+
+/* inicio da aula navegação com abas */
+/*
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 720px;
+}
+ul li{
+	float: left;
+	background: url(../css/abas/aba-direita.png) no-repeat top right;
+}
+li a{
+	display: block;
+	padding: 0 2em;
+	line-height: 3em;
+	text-decoration: none;
+	background: url(../css/abas/aba-esquerda.png) no-repeat;
+	color: #fff;
+	font-weight: 600;
+}
+
+ul a:hover{
+	color: #894a1f;
+}
+
+ul #atual{
+	background: url(../css/abas/aba-direita-atual.png) no-repeat top right;
+}
+
+ul #atual a{
+	background: url(../css/abas/aba-esquerda-atual.png) no-repeat;
+}*/
+
+
+/* layout fixo*/
+/*
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #DCDCDC;
+}
+
+#container{
+	width: 960px;
+	margin: 0 auto;
+	background: #fff url(../css/coluna-falsa/coluna.png) repeat-y left top;
+	min-width: 720px;*/
+	/*max-width: 960px;*//*
+}
+
+#marca{
+	width: 100%
+	height: 200px;
+	background: #225992 url(../css/imagens-liquidas/cabecalho2.jpg) no-repeat center;
+	text-align: center;
+	line-height: 200px;
+}
+
+#imagem{
+	width: 90%;
+	overflow: hidden;
+}
+
+
+#conteudo1{
+	width: 63%;
+	float: left;
+	background: #d1d1d1;
+}
+img.img{
+	width: 96%;
+	padding: 2%;
+	max-width: 600px;
+}
+
+#conteudo1 h1,
+#conteudo1 h2,
+#conteudo1 h3,
+#conteudo1 p{
+	padding: 0px 20px;
+}
+
+#conteudo2{
+	width: 34%;
+	float: right;
+	background: #d1d1d1;
+}
+
+#conteudo2 h1,
+#conteudo2 h2,
+#conteudo2 h3,
+#conteudo2 p{
+	padding: 0px 20px;
+}
+
+#conteudo{
+	width: 75%;
+	float: right;
+	padding: 20px 0px;
+}
+
+#navegacao{
+	width: 23%;
+	float: left;
+	padding: 20px 0px;
+	background: #d1d1d1;
+}
+
+#navegacao ul li{
+	list-style: none;
+	padding: 5px;
+}
+
+#navegacao li a{
+	text-decoration: none;
+	font-weight: 500;
+	color: red;
+
+}
+
+#rodape{
+	clear: both;
+	background: #c4c4c4;
+	padding: 5px;
+}
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+table{
+	width: 600px;
+	border-collapse: separate;
+}
+
+th, td{
+	padding: 7px;
+}
+th{
+	text-transform: uppercase;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #111;
+	text-align: left;
+	font-size: 90%;
+	letter-spacing: 0.1em;
+}
+tr.alternado{
+	background-color: #efefef;
+}
+.numero {
+	text-align: right;
+}
+tr:hover{
+	background-color: #c3e3e5;
+}*/
+
+/* estilizando formularios*/
+/*
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+fieldset{
+	margin: 1em 0;
+	padding: 1em;
+	border: 1px solid #ccc;
+	background: #f8f8f8;
+}
+
+legend{
+	font-weight: bold;
+}
+
+label{
+	display: block;
+	cursor: pointer;
+}
+
+input[type=text]{
+	width: 20em;
+}
+
+textarea{
+	width: 20em;
+	height: 10em;
+}
+input.radio, input.checkbox, input.submit{
+	width: auto;
+}
+.radio{
+	margin-right: 1em;
+}*/
+
+/*formularios 2*/
+/*
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #643d87 url(../css/formularios2/fundo.jpg) no-repeat top center;
+}
+#container{
+	width: 400px;
+	height: 300px;
+	background-color: rgba(255,255,255,0.3);
+	-webkit-border-radius: 10px;
+	-moz-border-radius:10px;
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-top: 120px;
+	text-align: center;
+}
+#container img{
+	width: 120px;
+	height: 120px;
+	margin-top: -60px;
+	margin-bottom: 30px;
+}
+input{
+	height: 40px;
+	width: 80%;
+	font-size: 18px;
+	margin-bottom: 10px;
+	background-color: #fff;
+	padding-left: 40px;
+	border: none;
+	background-repeat: no-repeat;
+	background-position: 10px;
+}
+
+input.email{
+	background-image: url(../css/formularios2/icone-usuario.png);
+}
+
+
+input.senha{
+	background-image: url(../css/formularios2/icone-cadeado.png);
+}
+
+input.submit{
+	color: #fff;
+	background-color: #f79300;
+	border: 2px solid #db7d00;
+	padding: 5px 20px;
+	height: 45px;
+	width: 90%;
+
+	background: -webkit-linear-gradient(to bottom, #faa600, #f68a00);
+	background: -moz-linear-gradient(to bottom, #faa600, #f68a00);
+	background: -o-linear-gradient(to bottom, #faa600, #f68a00);
+	background: linear-gradient(to bottom, #faa600, #f68a00);
+}*/
+/*arredondamento com imagens*/
+
+.caixa{
+	width: 400px;
+	background: #dedede url(../css/redondo/fundo-arredondamento.png) repeat-y;
+}
+.caixa h2{
+	background: url(../css/redondo/topo2.png) no-repeat left top;
+	padding: 10px 20px 0 20px;
+}
+
+.caixa p{
+	padding: 0 20px;
+}
+
+.caixa .ultimo{
+	background: url(../css/redondo/baixo2.png) no-repeat left bottom;
+	padding: 20px;	
+}
+
+/*
+.caixa h2{
+		padding: 10px 20px 0 20px;
+}
+
+.caixa p{
+	background: url(../css/redondo/baixo2.png) no-repeat left bottom;
+	padding: 0 20px 20px 20px;
+}*/
