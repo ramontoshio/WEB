@@ -1,0 +1,35 @@
+body{
+	background-image: #D3D3BC url('fundo.png');
+	font-family: sans-serif;
+	font: 15px;
+	}
+#principal{
+	width: 600px;
+}
+#menu{
+	background-color: #D3D3BC;
+	padding: 15px;
+	font-weight: bold;
+	}
+.titulo{
+	color: #A49B8E;
+	font-size: 20px;
+}
+a{
+	color: #4b566a;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 5px;
+}
+#conteudo{
+	background: #e8e8d9;
+	padding: 10px;
+}
+.centro{
+	text-align: center;
+	background: #e8e8d9;
+	padding: 10px;
+}
+.img{
+	border: 10px solid #D3D3BC;
+}
